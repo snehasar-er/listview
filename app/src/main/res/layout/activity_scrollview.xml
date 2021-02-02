@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fillViewport="true">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp">
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"></ImageView>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verticla button view"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"></TextView>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:fillViewport="true">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+         >
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button One" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Two" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Three" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Four" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Five" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Six" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Seven" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Eight" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Nine" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button One" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Two" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Three" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Four" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Five" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Six" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Seven" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Eight" />
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button Nine" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verticle Text view"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"></TextView>
+    <ScrollView
+android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="This can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spacThis can be solved with a combination of using fillViewPort on the ScrollView and using a layout weight on the content. Using fillViewPort makes the ScrollView fill the parent area. Setting the layout_weight on one of the views in the LinearLayout makes that view expand to fill any extra spac"
+            />
+    </ScrollView>
+
+
+</LinearLayout>
